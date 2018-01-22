@@ -1,0 +1,28 @@
+#ICI on met le nom du plugin name: nomduplugin
+name: Feed
+#Ici le nom de l'auteur
+author: Palente
+#ATTENTION le MAin ce qui emmene a la base du plugin le main.php
+#On met pas le src 
+main: Feed\Main
+#Donc le fichier main sera dans les dossier src/Feed
+#on met pas le .php
+#Maintenant la version
+version: 0.0.1
+#L'api attention tres important l'api correspond a la version de votre pocketmine environ
+#le dernier api est
+api: 3.0.0-ALPHA10
+#La descriptin du plugin
+description: "Plugin de régénération"
+
+commands:
+#La liste des commandes
+  Feed:
+  #on met pas le / juste la commande
+  description: "commande de regeneration"
+
+
+
+
+#Ce fichier est le premier a etre chargé et tout plugin contenant des plugin en dossier
+#doivent avoir le plugin DevTools
